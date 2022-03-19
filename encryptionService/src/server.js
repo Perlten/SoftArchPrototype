@@ -1,5 +1,5 @@
 const express = require("express")
-const encryption = require("./encryption").default
+const encryption = require("./encryption")
 
 app = express()
 app.use(express.json());
